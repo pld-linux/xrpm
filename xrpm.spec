@@ -5,8 +5,6 @@ Version:	2.2
 Release:	1
 License:	GPL
 Group:		Applications/Archiving
-Group(de):	Applikationen/Archivierung
-Group(pl):	Aplikacje/Archiwizacja
 Source0:	ftp://www.cc.mala.bc.ca/pub/Linux/%{name}-%{version}.tar.gz
 Source1:	%{name}.pld
 Source2:	%{name}-ftp-sites.pld
