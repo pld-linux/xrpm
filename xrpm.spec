@@ -9,6 +9,7 @@ Group(de):	Applikationen/Archivierung
 Group(pl):	Aplikacje/Archiwizacja
 Source0:	ftp://www.cc.mala.bc.ca/pub/Linux/%{name}-%{version}.tar.gz
 Source1:	%{name}.pld
+Source2:	%{name}-ftp-sites.pld
 URL:		http://www.gmsys.com/xrpm.html
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 BuildArch:	noarch
@@ -33,7 +34,7 @@ rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{_sysconfdir}
 install -d $RPM_BUILD_ROOT%{_prefix}/X11R6/bin
 install -d $RPM_BUILD_ROOT%{_prefix}/X11R6/lib/xrpm
-cp ftp-sites $RPM_BUILD_ROOT%{_sysconfdir}
+cp %{SOURCE2} $RPM_BUILD_ROOT%{_sysconfdir}/ftp-sites
 cp xrpm.conf $RPM_BUILD_ROOT%{_sysconfdir}
 cp %{SOURCE1} $RPM_BUILD_ROOT%{_prefix}/X11R6/bin/xrpm
 chmod 755 $RPM_BUILD_ROOT%{_prefix}/X11R6/bin/xrpm
