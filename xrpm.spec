@@ -2,7 +2,7 @@ Summary:	An alternative package manager for RPMS
 Summary(pl):	Zarz±dca plików RPM dla X
 Name:		xrpm
 Version:	2.2
-Release:	1
+Release:	2
 License:	GPL
 Group:		Applications/Archiving
 Source0:	ftp://www.cc.mala.bc.ca/pub/Linux/%{name}-%{version}.tar.gz
@@ -13,7 +13,7 @@ URL:		http://www.gmsys.com/xrpm.html
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 BuildArch:	noarch
 Requires:	tix
-Requires:	tkinter
+Requires:	python-tkinter
 
 %description
 XRPM-2.2 is an alternative tool for manipulating software packages
