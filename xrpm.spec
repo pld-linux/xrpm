@@ -62,12 +62,12 @@ cp xrpm.py $RPM_BUILD_ROOT%{_prefix}/X11R6/lib/xrpm
 #section="Configuration/Packaging"
 #EOF
 #)
- 
+
 %clean
 rm -rf $RPM_BUILD_ROOT/
 
 %files
-%defattr(-,root,root,755)
+%defattr(644,root,root,755)
 %doc CHANGES LICENSE NEWS todo license manual
 %config %{_sysconfdir}/ftp-sites
 %config(noreplace) %{_sysconfdir}/xrpm.conf
