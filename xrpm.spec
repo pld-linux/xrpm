@@ -6,6 +6,7 @@ Release:	1
 License:	GPL
 Group:		Applications/Archiving
 Source0:	ftp://www.cc.mala.bc.ca/pub/Linux/%{name}-%{version}.tar.gz
+# Source0-md5:	455ad8849eb18d2aabe76f02a1511305
 Source1:	%{name}.pld
 Source2:	%{name}-ftp-sites.pld
 URL:		http://www.gmsys.com/xrpm.html
