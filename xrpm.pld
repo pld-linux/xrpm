@@ -1,0 +1,6 @@
+#!/bin/sh
+
+#export PYPATH=/home/george/work/Python/xrpm/xrpm-2.2
+export PYPATH=/usr/X11R6/lib/xrpm
+python $PYPATH/xrpm.py $1 $2 $3
+
