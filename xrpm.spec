@@ -1,5 +1,5 @@
 Summary:	An alternative package manager for RPMS
-Summary(pl):	Zarz±dca plików RPM dla X
+Summary(pl.UTF-8):   ZarzÄ…dca plikÃ³w RPM dla X
 Name:		xrpm
 Version:	2.2
 Release:	2
@@ -20,8 +20,8 @@ XRPM-2.2 is an alternative tool for manipulating software packages
 built with RedHat's RPM package management tool. XRPM will allow you
 to list and install packages from directories and FTP sites.
 
-%description -l pl
-XRPM jest ca³kiem przyjemnym narzêdziem do nadzoru, instalacji oraz
+%description -l pl.UTF-8
+XRPM jest caÅ‚kiem przyjemnym narzÄ™dziem do nadzoru, instalacji oraz
 deinstalacji paczek RPM.
 
 %prep
