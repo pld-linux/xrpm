@@ -1,5 +1,5 @@
 Summary:	An alternative package manager for RPMS
-Summary(pl.UTF-8):   Zarządca plików RPM dla X
+Summary(pl.UTF-8):	Zarządca plików RPM dla X
 Name:		xrpm
 Version:	2.2
 Release:	2
