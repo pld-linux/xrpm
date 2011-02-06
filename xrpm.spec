@@ -65,7 +65,7 @@ cp xrpm.py $RPM_BUILD_ROOT%{_prefix}/X11R6/lib/xrpm
 #)
 
 %clean
-rm -rf $RPM_BUILD_ROOT/
+rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
